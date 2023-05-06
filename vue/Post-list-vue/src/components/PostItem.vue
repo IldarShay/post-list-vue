@@ -1,9 +1,13 @@
 <template>
   <div class="col s12">
-    <h2 class="header">{{ post.title }}</h2>
+    <h3 class="header">
+      {{ post.title }}
+    </h3>
     <div class="card horizontal">
       <div class="card-stacked">
         <div class="card-content">
+          <span>{{ new Date(post.date).toDateString() }}</span>
+          <hr />
           <p>
             {{ post.body }}
           </p>

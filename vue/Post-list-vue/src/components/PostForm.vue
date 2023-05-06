@@ -1,8 +1,6 @@
 <template>
   <div>
-    <button data-target="modal1" class="btn modal-trigger">
-      Create new post
-    </button>
+    <button data-target="modal1" class="btn modal-trigger">Add new post</button>
     <div class="dialog">
       <!-- Modal Structure -->
       <div id="modal1" class="modal">
@@ -50,12 +48,14 @@ export default {
       post: {
         title: "",
         body: "",
+        date: null,
       },
     };
   },
   methods: {
     createPost() {
       this.post.id = Date.now();
+      this.post.date = Date.now();
       this.title = "";
       this.body = "";
       this.$emit("create", this.post);
@@ -73,4 +73,4 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped></style>
