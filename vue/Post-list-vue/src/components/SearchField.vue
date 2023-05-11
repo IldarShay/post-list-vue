@@ -16,7 +16,7 @@ export default {
   name: "SearchField",
   methods: {
     searchText(e) {
-      this.$emit("update:model-value", e.target.value);
+      this.$emit("update:modelValue", e.target.value);
     },
   },
 };
