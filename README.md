@@ -1,19 +1,16 @@
-# post-list-vue
 
-## Project setup
-```
-npm install
-```
+Прототип SPA загрузки постов.
+Ссылка на проект: [https://main--spiffy-sfogliatella-215c0b.netlify.app](https://main--sensational-souffle-a4968f.netlify.app/)
 
-### Compiles and hot-reloads for development
+## •	Основное состояние
 ```
-npm run serve
-```
+o	Асинхронная загрузка постов, с выводом информации
+o	Добавление постов с вызовом модального окна
+o Удаление постов
+o	Инпут с поиском по описанию постов
+o	Фильтр по названию поста, по описанию поста.
+o	Пагинация
+o Анимация при отрисовке постов и сортировке
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
