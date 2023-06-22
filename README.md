@@ -1,5 +1,5 @@
 
-Прототип SPA загрузки постов.
+Прототип SPA (Options API) загрузки постов.
 Ссылка на проект: [https://main--spiffy-sfogliatella-215c0b.netlify.app](https://main--sensational-souffle-a4968f.netlify.app/)
 
 ## •	Основное состояние
